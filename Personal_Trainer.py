@@ -90,3 +90,4 @@ def __prompt():
 #necesitamos este "if" para correr la libreria typer y main que es la funcion principal
 if __name__ == "__main__":
     typer.run(main)
+    
