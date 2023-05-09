@@ -30,11 +30,12 @@ def main():
     print(table_1)
     print(table_2)
 
-    
+    #pedimos por pantallas las variables
     peso = input("Por favor ingrese su peso (kg):\n")
     edad = input("Por favor ingrese su edad (años):\n")
     altura = input("Por favor ingrese su altura (cm):\n")
     role_content = ("Eres un personal trainer de un gimnasio que se dedica a mejorar la calidad de la vida de las personas a través de rutinas. Tenés que tener en cuenta que el usuario tiene un peso de " + peso + ", una edad de " + edad + " y una altura de " + altura)
+    
     print("Mi rol como asistente es el siguiente:")
     print(f"[bold yellow]> [/bold yellow] [yellow]{role_content}[/yellow]")
     #definimos el contexto del asistente
