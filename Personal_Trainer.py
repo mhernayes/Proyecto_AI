@@ -6,7 +6,6 @@ from rich.table import Table
 #importamos el archivo config donde vamos a guardar la api key
 import config
 
-
 """
 Webs de interés:
 - Módulo OpenAI: https://github.com/openai/openai-python
