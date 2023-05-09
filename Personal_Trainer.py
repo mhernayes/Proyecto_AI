@@ -6,6 +6,7 @@ from rich.table import Table
 #importamos el archivo config donde vamos a guardar la api key
 import config
 
+
 """
 Webs de interés:
 - Módulo OpenAI: https://github.com/openai/openai-python
@@ -29,7 +30,7 @@ def main():
     #imprimimos la tabla
     print(table_1)
     print(table_2)
-    
+
     
     peso = input("Por favor ingrese su peso (kg):\n")
     edad = input("Por favor ingrese su edad (años):\n")
