@@ -13,7 +13,6 @@ Webs de interés:
 - Typer: https://typer.tiangolo.com
 - Rich: https://rich.readthedocs.io/en/stable/
 """
-
 #definimos la funcion main donde ingresaron el codigo principal del chat. esta funcion es la que definimos en typer
 def main():
     #llamamos a la api key desde otro archivo llamado config donde esta guardada con la variable api_key
